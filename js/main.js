@@ -157,12 +157,16 @@
         nav:true,
         responsive:{
             0:{
-                items:1
+                items:1,
+                nav:false,
+                dots:false
             },
             600:{
-                items:1
+                items:1,
+                nav:false,
+                dots:false
             },
-            1000:{
+            1300:{
                 items:1
             }
         }

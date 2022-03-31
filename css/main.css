@@ -3335,11 +3335,6 @@ input.num-product::-webkit-inner-spin-button {
   border:0px solid black;
 }
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
-
- 
- 
-
-
 @media (min-width: 900px) {
   header {
     margin-bottom: 150px;
@@ -3350,4 +3345,35 @@ input.num-product::-webkit-inner-spin-button {
     font-size: 18px;
  
 }
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background: 0 0;
+  /* color: inherit; */
+  /* border: none; */
+  padding: 0!important;
+  /* font: inherit; */
+  position: absolute;
+  top: 72px;
+  font-size: 77px;
+}
+.owl-next {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  right: 4px;
+  display: block !important;
+  border: 0px solid black;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: #86979100;
+  color: #FFF;
+  /* all: unset; */
+  /* text-decoration: none; */
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  display: none;
 }
